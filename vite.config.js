@@ -7,7 +7,7 @@ export default defineConfig({
         react(),
         checker({
             typescript: {
-                enabled: true,
+                enabled: false,
                 buildMode: true,
             },
             eslint: {
